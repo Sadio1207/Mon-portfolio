@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(230, 220, 203);
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+header{
+    position: fixed; /* Fixe la barre */
+        top: 0;          /* Collée en haut */
+        left: 0;
+        width: 100%;     /* Prend toute la largeur */
+        background-color: #333;
+        color: white;
+        padding: 0px;
+        z-index: 1000; /* Assure que la barre est au-dessus du contenu */
+    background-color: rgb(26, 158, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45%;
+    
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+li a:hover{
+    background-color: rgb(17, 168, 42);
+    color: black;
+    transition: ease;
+}
+/* FIN DU HEADER*/
+/* DEBUT A PROPOS */
+.container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.apropos h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container p{
+    font-size: 20px;
+}
+section h1{
+    text-align: center;
+    text-decoration: underline;
+}
+/* item*/
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.item{
+    display: flex;
+    margin-bottom: 10px;  
+}
+.max{
+    width: 455px;
+    background-color: rgb(24, 176, 187);
+    height: 15px;
+    border-radius: 10px;
+}
+.valeur{
+    width: 95%;
+    height: 15px;
+    background-color: rgb(173, 77, 42);
+    border-radius: 10px;
+}
+.max1{
+    width: 455px;
+    background-color:rgb(24, 176, 187);
+    height: 15px;
+    border-radius: 5px;
+}
+.valeur1{
+    width: 60%;
+    height: 15px;
+    background-color: rgb(173, 77, 42);
+    border-radius: 5px;
+}
+.max2{
+    width: 455px;
+    background-color:rgb(24, 176, 187);
+    height: 15px;
+    border-radius: 5px;
+}
+.valeur2{
+    width: 70%;
+    height: 15px;
+    background-color: rgb(173, 77, 42);
+    border-radius: 5px;
+}
+.max3{
+    width: 455px;
+    background-color:rgb(24, 176, 187);
+    height: 15px;
+    border-radius: 10px;
+}
+.valeur3{
+    width: 95%;
+    height: 15px;
+    background-color: rgb(173, 77, 42);
+    border-radius: 10px;
+}
+/* DEBUT RESEAUX SOCIAUX*/
+.social{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}   
+.contact{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 77, 42);
+    border-radius: 15px;
+}
+
+fieldset{
+    color: rgb(56, 16, 233);
+    width: 500px;
+    border-radius: 15px;
+}
+button{
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 5px;
+}
+input{
+    color: red;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+a img{
+     width: 45px;
+     height: 45px;
+}
+a img:hover{
+    background-color: rgb(17, 168, 42);
+    color: white;
+    transition: ease;
+}
+
+map{
+    justify-content: center;
+    width:100%px;
+    height:450px; 
+    border:0;
+    
+}
+.footer {
+    margin-block-end: 0;
+    justify-items: center;
+    background-color: rgb(26, 158, 103);
+}
+hr{
+     border: none;           /* Supprime le style par défaut */
+     height: 3px;            /* Épaisseur */
+     background-color: rgb(22, 22, 22);  /* Couleur */
+     width: 92%;             /* Largeur */
+}
+
+
+
+
+
+
+
+
+
+
